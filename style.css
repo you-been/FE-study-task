@@ -1,0 +1,42 @@
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+img{
+	width: 100%;
+}
+
+header {
+	padding: 30px;
+	background: lightyellow;
+}
+
+header .cafe-logo{
+	width: 100px;
+	margin: 0 auto;
+}
+
+header nav {
+	max-width: 1200px;
+	margin: 20px auto 0;
+}
+
+header nav .type-list{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 40%;
+}
+
+header nav .type-list .type-item {
+	border: 2px solid black;
+	border-radius: 15px;
+	background: lightgreen;
+	padding: 5px 10px;
+}

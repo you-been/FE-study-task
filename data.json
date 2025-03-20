@@ -6,7 +6,7 @@
       "type": "drinks",
       "price": 4500,
       "description": "진한 에스프레소에 물을 더해 깔끔한 맛을 살린 커피.",
-      "image": "americano.jpg"
+      "image": "images/americano.jpg"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "type": "drinks",
       "price": 5000,
       "description": "부드러운 우유와 에스프레소가 조화를 이루는 커피.",
-      "image": "cafe_latte.jpg"
+      "image": "images/cafe_latte.jpg"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "type": "drinks",
       "price": 5500,
       "description": "부드러운 우유 거품과 에스프레소가 조화를 이루는 커피.",
-      "image": "cappuccino.jpg"
+      "image": "images/cappuccino.jpg"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "type": "drinks",
       "price": 5500,
       "description": "달콤한 바닐라 시럽이 더해진 부드러운 라떼.",
-      "image": "vanilla_latte.jpg"
+      "image": "images/vanilla_latte.jpg"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "type": "drinks",
       "price": 6000,
       "description": "달콤한 카라멜 시럽이 가미된 부드러운 마키아토.",
-      "image": "caramel_macchiato.jpg"
+      "image": "images/caramel_macchiato.jpg"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "type": "bakery",
       "price": 7500,
       "description": "신선한 딸기와 부드러운 크림이 조화를 이루는 케이크.",
-      "image": "strawberry_shortcake.jpg"
+      "image": "images/strawberry_shortcake.jpg"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "type": "bakery",
       "price": 4000,
       "description": "겉은 바삭하고 속은 부드러운 클래식한 크루아상.",
-      "image": "croissant.jpg"
+      "image": "images/croissant.jpg"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "type": "bakery",
       "price": 8000,
       "description": "부드럽고 진한 치즈 풍미가 가득한 케이크.",
-      "image": "cheesecake.jpg"
+      "image": "images/cheesecake.jpg"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "type": "bakery",
       "price": 5500,
       "description": "쫀득한 식감과 진한 초콜릿 맛이 일품인 브라우니.",
-      "image": "choco_brownie.jpg"
+      "image": "images/choco_brownie.jpg"
     },
     {
       "id": 10,
@@ -78,7 +78,7 @@
       "type": "bakery",
       "price": 5000,
       "description": "달콤한 블루베리가 가득 들어간 촉촉한 머핀.",
-      "image": "blueberry_muffin.jpg"
+      "image": "images/blueberry_muffin.jpg"
     },
     {
       "id": 11,
@@ -86,7 +86,7 @@
       "type": "brunch",
       "price": 12000,
       "description": "포치드 에그와 홀랜다이즈 소스가 어우러진 브런치 메뉴.",
-      "image": "eggs_benedict.jpg"
+      "image": "images/eggs_benedict.jpg"
     },
     {
       "id": 12,
@@ -94,7 +94,7 @@
       "type": "brunch",
       "price": 11000,
       "description": "달콤한 시럽과 부드러운 식감이 매력적인 프렌치 토스트.",
-      "image": "french_toast.jpg"
+      "image": "images/french_toast.jpg"
     },
     {
       "id": 13,
@@ -102,7 +102,7 @@
       "type": "brunch",
       "price": 9500,
       "description": "신선한 야채와 햄이 들어간 건강한 샌드위치.",
-      "image": "sandwich.jpg"
+      "image": "images/sandwich.jpg"
     },
     {
       "id": 14,
@@ -110,7 +110,7 @@
       "type": "brunch",
       "price": 10000,
       "description": "부드러운 팬케이크에 메이플 시럽과 버터가 곁들여진 메뉴.",
-      "image": "pancake.jpg"
+      "image": "images/pancake.jpg"
     },
     {
       "id": 15,
@@ -118,8 +118,7 @@
       "type": "brunch",
       "price": 10500,
       "description": "신선한 아보카도와 크런치한 토스트의 완벽한 조합.",
-      "image": "avocado_toast.jpg"
+      "image": "images/avocado_toast.jpg"
     }
   ]
 }
-
