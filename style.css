@@ -1,3 +1,19 @@
+/**** RESET & COMMON ****/
+
+@font-face {
+    font-family: 'Ownglyph_ParkDaHyun';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin: 0;
+	background: lightyellow;
+	font-family: 'Ownglyph_ParkDaHyun';
+	font-size: 10px;
+}
+
 a{
 	text-decoration: none;
 	color: #000;
@@ -6,15 +22,23 @@ a{
 ul{
 	list-style: none;
 	padding: 0;
+	margin: 0;
+}
+
+h3, h2, h1, p {
+	margin: 0;
 }
 
 img{
 	width: 100%;
 }
 
+
+/**** HEADER ****/
+
 header {
 	padding: 30px;
-	background: lightyellow;
+	background: #FFF8AF;
 }
 
 header .cafe-logo{
@@ -31,12 +55,90 @@ header nav .type-list{
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
-	max-width: 40%;
-}
+	width: 100%;
+	max-width: 480px;
+	font-size: 1rem;
+} 
 
-header nav .type-list .type-item {
+header nav .type-list .type-item a{
+	display: inline-block;
+	background: #BAEE7C;
 	border: 2px solid black;
 	border-radius: 15px;
-	background: lightgreen;
 	padding: 5px 10px;
+	transition: .3s;
+}
+
+header nav .type-list .type-item a:hover {
+	background: #85A95A;
+}
+
+header nav .type-list .type-item a.active {
+	background: #85A95A;
+}
+
+
+/**** MAIN ****/
+
+main .menu-list .menu-item {
+	padding: 25px 30px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+main .menu-list .menu-item .menu-info h3{
+	font-size: 1.6rem;
+	margin: 10px 0;
+}
+
+main .menu-list .menu-item .menu-info p{
+	font-size: 1.2rem;
+	margin: 10px 0;
+}
+
+/*** top ***/
+.top-btn {
+	position: fixed;
+	visibility: hidden;
+	width: 35px;
+	bottom: 30px;
+	right: 25px;
+	opacity: 0;
+	transition: opacity 0.5s, visibility 0.5s;
+}
+
+.top-btn.visible {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+@media screen and (min-width: 768px) {
+	header nav .type-list{
+		font-size: 1.2rem;
+	}
+
+	main {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	main .menu-list {
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	main .menu-list .menu-item {
+		width: 50%;
+		padding: 30px 50px;
+	}
+
+	main .menu-list .menu-item .menu-info h3{
+		font-size: 2rem;
+	}
+	
+	main .menu-list .menu-item .menu-info p{
+		font-size: 1.6rem;
+	}
 }
